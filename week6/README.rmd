@@ -1,0 +1,39 @@
+
+# 📒 Student Contact Manager
+
+## 📌 Project Description
+The **Student Contact Manager** is a Python-based console application designed to manage student, parent, and teacher contact information. It demonstrates the use of **dictionaries** and **sets** for storing and validating data, while applying input validation and basic set operations.
+
+---
+
+## 🎯 Features
+- **Add Contact**: Store details including ID, full name, email, phone, and role.  
+- **Update Contact**: Modify existing contact details with validation.  
+- **Delete Contact**: Remove a contact and update sets accordingly.  
+- **Search Contact**: Find a contact by ID.  
+- **List Contacts**: Display all stored contacts.  
+- **Set Operations Demo**: Show union, intersection, and difference on email sets.  
+
+---
+
+## 🧠 Data Structures Used
+| Structure | Purpose |
+|-----------|---------|
+| Dictionary (`contacts`) | Stores contact details keyed by unique ID |
+| Set (`emails_set`, `phones_set`) | Ensures uniqueness of email and phone numbers |
+| Regex | Validates email format |
+
+---
+
+## ▶️ How to Run
+1. Install Python (version 3.x).  
+2. Save the script as `student_contact_manager.py`.  
+3. Run the program using:  
+
+```bash
+python3 student_contact_manager.py
+```
+
+## 📖 Conclusion
+This project provides a practical implementation of dictionaries, sets, and regex validation in Python. It strengthens understanding of data storage, uniqueness enforcement, and menu-driven program design.
+This is in fullfillment of flexsaf internshipt weekly delivarables
