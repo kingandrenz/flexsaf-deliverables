@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 
-def add_task(tasks task_name):
+def add_task(tasks, task_name):
     """ Add a new task to the list """
     tasks.append({"task": task_name, "done": False})
     return tasks
-
 
 def view_tasks(tasks):
     """Display all tasks."""
@@ -17,8 +16,7 @@ def view_tasks(tasks):
         status = "Done" if task["done"] else "Not Done"
         print(f"{index}. {task['task']} - {status}")
 
-        print(f"\nTotal tasks: {len(tasks)}\n")
-
+    print(f"\nTotal tasks: {len(tasks)}\n")
 
 def mark_done(tasks, task_number):
     """ Mark a task as Completed."""
@@ -43,12 +41,11 @@ def delete_task(tasks, task_number):
 def task_statistics(tasks):
     """Show statistics using built-in functions."""
     done_tasks = sum(1 for t in tasks if t["done"])
-    pending_task = len(tasks) - done_tasks
+    pending_tasks = len(tasks) - done_tasks
 
     print("\nTask Statistics")
     print("-----------------")
     print(f"Total Tasks: {len(tasks)}")
     print(f"Completed: {done_tasks}")
     print(f"Pending: {pending_tasks}")
-
 
