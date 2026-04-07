@@ -1,0 +1,41 @@
+Python cache
+
+pycache/ .py[cod] $py.class
+
+Virtual environments
+
+venv/ env/ ENV/ .venv/ conda-meta/
+
+Conda environments
+
+.conda .env
+
+Distribution / packaging
+
+.Python build/ develop-eggs/ dist/ downloads/ eggs/ .eggs/ lib/ lib64/
+parts/ sdist/ var/ .egg-info/ .installed.cfg .egg
+
+Logs
+
+*.log
+
+CSV / runtime generated data (optional)
+
+expenses.csv task_log.txt
+
+Jupyter Notebook checkpoints
+
+.ipynb_checkpoints
+
+IDE files
+
+.vscode/ .idea/
+
+OS files
+
+.DS_Store Thumbs.db
+
+Environment files
+
+environment.yml
+
